@@ -43,9 +43,9 @@ const Footer = () => {
                 <span>123 Bay Street, Suite 400<br />Toronto, ON M5J 2T3</span>
               </li>
               <li>
-                <a href="tel:4165550123" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+                <a href="tel:4169000389" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
                   <Phone className="w-4 h-4" />
-                  (416) 555-0123
+                  (416) 900-0389
                 </a>
               </li>
               <li>

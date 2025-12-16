@@ -67,13 +67,13 @@ const Header = () => {
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:4165550123"
+              href="tel:4169000389"
               className={`flex items-center gap-2 text-sm font-medium transition-colors hover:opacity-80 ${
                 isScrolled ? "text-foreground" : "text-primary-foreground"
               }`}
             >
               <Phone className="w-4 h-4" />
-              (416) 555-0123
+              (416) 900-0389
             </a>
             <Button
               onClick={scrollToContact}
@@ -121,11 +121,11 @@ const Header = () => {
               </a>
               <div className="pt-4 border-t border-border">
                 <a
-                  href="tel:4165550123"
+                  href="tel:4169000389"
                   className="flex items-center gap-2 text-foreground font-medium py-2"
                 >
                   <Phone className="w-4 h-4" />
-                  (416) 555-0123
+                  (416) 900-0389
                 </a>
                 <Button onClick={scrollToContact} variant="default" size="lg" className="w-full mt-4">
                   Book Free Consultation
