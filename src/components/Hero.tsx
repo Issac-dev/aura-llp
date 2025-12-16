@@ -1,14 +1,17 @@
 import { Phone, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroBg from "@/assets/hero-bg.webp";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-primary via-primary to-green-dark">
-      {/* Decorative elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-primary-foreground/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4" />
-        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-primary-foreground/3 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4" />
-      </div>
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      {/* Green gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/85 via-primary/80 to-green-dark/85" />
       
       {/* Content */}
       <div className="container relative z-10 py-20 md:py-32">
@@ -29,7 +32,7 @@ const Hero = () => {
             
             <Button variant="heroOutline" size="xl" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:border-primary-foreground/50">
               <Phone className="w-5 h-5" />
-              (416) 555-0123
+              (416) 900-0389
             </Button>
           </div>
           
